@@ -1,0 +1,173 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: crimson;
+  font-family: Sharp Grotesk;
+  border-style: groove;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 0;
+}
+
+.logo img {
+  width: 150px;
+  height: 100px;
+  justify-content: center;
+}
+
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: red;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.contact-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contact-form label {
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.radio-item {
+  display: flex;
+  gap: 4px;
+}
+
+.contact-form .full-width {
+  flex: 0 0 100%;
+}
+
+.contact-form .half-width {
+  flex: 0 0 48%;
+}
+
+.width {
+  flex: 0 0 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 1rem;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: red;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: black;
+  color: aliceblue;
+  padding: 35px;
+  margin: 3px;
+}
+
+.footer-last,
+.footer-bottom {
+  padding: 25px;
+  margin: 5px;
+}
+
+.radio1 {
+  flex: 0 0 48%;
+}
+
+.agree {
+  display: flex;
+}
+
+.agree-text {
+  margin-right: 0.5rem;
+}
+
+.yes-no {
+  display: flex;
+  align-items: center;
+}
+
+.yes-no-radio {
+  margin-top: 0.2rem;
+}
